@@ -9,7 +9,7 @@
       "parts": [
         { "path": "firmware/bluepad32_python/bootloader.bin", "offset": 4096 },
         { "path": "firmware/bluepad32_python/partition-table.bin", "offset": 32768 },
-        { "path": "firmware/bluepad32_python/app-template.bin", "offset": 65536 },
+        { "path": "firmware/bluepad32_python/app-template.bin", "offset": 65536 }
       ]
     }
   ]
