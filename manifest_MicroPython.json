@@ -5,7 +5,7 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "parts": [{ "path": "firmware/firmware_ESP32_ULAB_LVGL_SPIRAM_20220716-1006.bin", "offset": 4096 }]
+      "parts": [{ "path": "firmware/firmware_ESP32_ULAB_LVGL_SPIRAM_20221005-2336.bin", "offset": 4096 }]
     }
   ]
 }
