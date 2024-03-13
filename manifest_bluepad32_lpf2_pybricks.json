@@ -1,0 +1,14 @@
+{
+  "name": "BluePad32 LPF2 for PyBricks",
+  "version": "1.0",
+  "home_assistant_domain": "slim_player",
+  "funding_url": "https://esphome.io/guides/supporters.html",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/firmware_BP32_LPF2_PyBricks.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "MicroPython version 1.20 with ulab+lvgl+uartremote+pupremote+ioty support",
+  "version": "1.20",
+  "home_assistant_domain": "slim_player",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [{ "path": "firmware/firmware_ESP32_ULAB_LVGL_SPIRAM_IOTY_v1.20_20231229.bin", "offset": 4096 }]
+    }
+  ]
+}

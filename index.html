@@ -75,7 +75,9 @@
         }
       }
     </style>
-    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
+ <!--   <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script> -->
+<script type="module"  src="./install-button.js"> </script>
+
   </head>
   <body>
     <div class="content">
@@ -86,15 +88,26 @@
           <label><input type="radio" name="type" value="MicroPython" /> MicroPython v1.19 with ulab+lvgl+uartremote</label>
         </li>
         <li>
-          <label><input type="radio" name="type" value="bluepad32python" /> BluePad32 for LMS micropython projects</label>
+          <label><input type="radio" name="type" value="bluepad32_UartRemote" /> BluePad32 UartRemote for LMS micropython projects</label>
         </li>
         <li>
-          <label><input type="radio" name="type" value="bluepad32lpf2" /> BluePad32 for LMS word blocks projects</label>
+          <label><input type="radio" name="type" value="bluepad32_lpf2_lego" /> BluePad32 LPF2 for LMS word blocks projects</label>
         </li>
+       <li>
+          <label><input type="radio" name="type" value="bluepad32_lpf2_pybricks" /> BluePad32 LPF2 for PyBricks projects</label>
+	</li>
+       <li>
+          <label><input type="radio" name="type" value="bluepad32_lpf2_spike3" /> BluePad32 for Spike3</l>        </li>
+        <li>
+          <label><input type="radio" name="type" value="MicroPython_1.20" /> MicroPython v1.20 with ioty+ulab+lvgl 9.0+uartremote+pupremote</label></li>
+	  See  <a href="https://github.com/ste7anste7an/micropython_ulab_lvgl/tree/main/experimental_v1.20_LVGL_9.0">Experimental firmware for LMS-ESP32</a>
+
       </ul>
       <p class="button-row" align="center">
         <esp-web-install-button class="invisible"></esp-web-install-button>
       </p>
+     <p> </p>
+	<p> For the source code and example of the BluePad32 firmware, see <a href="https://github.com/ste7anste7an/bluepad32_arduino">Bluepad32 github</a>. </p>
 
       <div class="footer">
         <a href="https://github.com/antonvh/LMS-uart-esp"
